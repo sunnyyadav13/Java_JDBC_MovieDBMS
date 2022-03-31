@@ -1,0 +1,11 @@
+package com.movieDB;
+
+public class MovieClass {
+	
+	private String name;
+	private String ;
+	private String name;
+	private String name;
+	
+
+}

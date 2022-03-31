@@ -1,0 +1,13 @@
+package com.movieDB;
+
+public class MovieClass {
+	
+	private String name;
+	private String actorName;
+	private String length;
+	private String releaseDate;
+	
+	
+	
+
+}

@@ -1,0 +1,37 @@
+package com.movieDB;
+
+public class MovieClass {
+	
+	private String name;
+	private String actorName;
+	private String length;
+	private String releaseDate;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getActorName() {
+		return actorName;
+	}
+	public void setActorName(String actorName) {
+		this.actorName = actorName;
+	}
+	public String getLength() {
+		return length;
+	}
+	public void setLength(String length) {
+		this.length = length;
+	}
+	public String getReleaseDate() {
+		return releaseDate;
+	}
+	public void setReleaseDate(String releaseDate) {
+		this.releaseDate = releaseDate;
+	}
+	
+	
+	
+
+}

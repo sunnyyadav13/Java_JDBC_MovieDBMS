@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+E:\Study folder\JavaUdemy\MovieDatabase\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+760091825.index
+3240995294.index
+3816297123.index

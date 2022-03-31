@@ -1,0 +1,62 @@
+package com.movieDB;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.security.InvalidAlgorithmParameterException;
+
+public class Start {
+
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		// TODO Auto-generated method stub
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		
+		while(true) {
+			System.out.println("Option 1 --> ADD detail");
+			System.out.println("Option 2 --> DELETE detail");
+			System.out.println("Option 3 --> UPDATE detail");
+			System.out.println("Option 4 --> EXIT");
+			
+			System.out.println("\n Insert Option number ");
+			int option=Integer.parseInt(br.readLine());
+			
+			if (option==1) {
+				System.out.println("Enter Movie Name :");
+				String movieName=br.readLine();
+				System.out.println("Enter Actor Name :");
+				String actorName=br.readLine();
+				System.out.println("Enter Length :");
+				String length=br.readLine();
+				System.out.println("Enter Release Date :");
+				String releaseDate=br.readLine();
+				
+				MovieClass mc= new MovieClass(movieName,actorName,length,releaseDate);
+				
+				boolean ans= movieDow.insertIntoDB(mc);
+				
+				if(ans) {
+					System.out.println("Added Succesfull");
+				}
+				else{
+					System.out.println("Detail Addition process Failed");
+				}
+				}
+			else if (option==2) {
+				System.out.print("Option 2 --> ADD detail");
+			}
+			else if (option==3) {
+				System.out.print("Option 3 --> ADD detail");
+			}
+			else if (option==4) {
+				System.out.print("Option 4 --> ADD detail");
+			}
+			default:
+				System.out.print("Invalid Option Try to");
+			}
+			
+			
+		}
+
+	}
+
+}

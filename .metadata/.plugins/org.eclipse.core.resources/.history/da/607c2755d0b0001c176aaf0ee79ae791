@@ -1,0 +1,25 @@
+package com.movieDB;
+
+import java.sql.Connection;
+
+public class ConnectionProvider {
+	Connection Con;
+	
+	public void createC(){
+		// load the driver
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			
+			CON=
+			
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+	
+
+}
